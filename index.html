@@ -300,7 +300,7 @@ var sp_business = true;
 	                											<div class="box-body">
 	                    											<span class="fw-bold block">
 												                      Hai l'App Poste Italiane?<br>
-												                      <a href="javascript:void(0);" id="deeplinkid_a_up" onclick="deepLinkOpen('app-up');">Accedi più rapidamente</a>
+												                      <a href="javascript:void(0);" id="deeplinkid_a_up" onclick="deepLinkOpen('app-up');">Accedi piÃ¹ rapidamente</a>
 	                            									</span>
 											                    </div> 
 											                </div>
@@ -372,7 +372,7 @@ var sp_business = true;
 	                                    <div class="main-pills-wrap login-content">
 	                                        <div class="row">
 	                                            <div class="col-sm-12 equalize hidden-xs" style="min-height: 547px;">
-	                                                <h2 class="text-center mt-4">Accedi più velocemente</h2>
+	                                                <h2 class="text-center mt-4">Accedi piÃ¹ velocemente</h2>
 	                                                <div class="box-editable-area">
 	                                                    <div class="box-body">
 	                                                        <p class="text-center">Inquadra il codice QR con l'app <b>Poste Italiane</b></p>
@@ -386,7 +386,7 @@ var sp_business = true;
 	                                                <div class="box-editable-area mt-4">
 	                                                    <div class="box-body">
 	                                                        <p class="text-center">
-	                                                        	Il codice è valido per <span id="_timer">03:27</span></p>
+	                                                        	Il codice Ã¨ valido per <span id="_timer">03:27</span></p>
 	                                                    </div>
 	                                                </div>
 	                                            </div>
@@ -415,10 +415,10 @@ var sp_business = true;
 											                        <h2>Accedi con PosteID</h2>
 											                        <div class="box-body">
 											                            <p>
-											                                Puoi eseguire l'accesso con l'Identità Digitale
+											                                Puoi eseguire l'accesso con l'IdentitÃ  Digitale
 																			PosteID abilitato a SPID. 
 																			<a href="https://posteid.poste.it/identificazione/identificazione.shtml">
-																				Scopri di più
+																				Scopri di piÃ¹
 																			</a>.
 											                            </p>
 											                        </div>
@@ -460,7 +460,7 @@ var sp_business = true;
 										            <div class="base-footer mt-3 mt-sm-0">
 										                <div class="clearfix">
 										                    <ul class="list-unstyled pull-sm-left">
-										                        <li><span class="block fs-small text-xs-center text-sm-left">© Poste Italiane 2026 - Partita iva : 01114601006</span></li>
+										                        <li><span class="block fs-small text-xs-center text-sm-left">Â© Poste Italiane 2026 - Partita iva : 01114601006</span></li>
 										                        <!--   <li><p id="teconsent" class="block fs-small text-xs-center text-sm-right"></p></li> -->
 										                    </ul>
 										                </div>
@@ -788,7 +788,7 @@ function checkDataElement(){try{dataLayerAliasPage=dataLayer.funnel.alias_page}c
 </script><script>
 function checkDataElementBiz(){try{dataLayerAliasPagePlain=dataLayer.alias_page}catch(a){dataLayerAliasPagePlain=""}var a=!1;if(void 0!==surveyParametersBiz[locationUrl]){if(a=!0,void 0!==surveyParametersBiz[locationUrl].alias_page){var e=surveyParametersBiz[locationUrl].alias_page;_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function checkDataElementBiz() called, value alias_page returned "'+e+'"'),dataLayerAliasPage===e||dataLayerAliasPagePlain===e?(_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function checkDataElementBiz() called, value alias_page get "'+e+'"'),a=!0):a=!1}return _satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function checkDataElementBiz() called, value returned "'+a+'"'),a}}function aiutaci_a_migliorare_Biz(a,e){$(a).length>0&&("production"===_satellite.getVar("DL_environment")?$(a).append('<div id="tagmanager_box_survey"><div class="main-pills spacer-xs-top-30 spacer-xs-bottom-20"><div class="main-pills-wrap" id="aiutaci_a_migliorare"><h2>Aiutaci a migliorare</h2>Partecipa al sondaggio. Miglioriamo insieme i servizi di Poste Italiane.&nbsp;<br><a href="'+e+'" rel="noopener noreferrer" target="_blank" class="btn btn-xs btn-primary" style="margin-top:20px" >S\xec, Partecipo</a></div></div></div>'):$(a).append('<div id="tagmanager_box_survey"><div class="main-pills spacer-xs-top-30 spacer-xs-bottom-20"><div class="main-pills-wrap" id="aiutaci_a_migliorare"><h2>Aiutaci a migliorare</h2><p>Partecipa al sondaggio. Miglioriamo insieme i servizi di Poste Italiane.<a class="btn btn-xs btn-primary pull-right" href="'+e+'" rel="noopener noreferrer" target="_blank">S\xec, Partecipo</a></p></div></div></div>'));_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function aiutaci_a_migliorare_Biz(anchorLink, ctaLink) called with anchorLink: "'+a+'" and ctaLink "'+e+'"')}function checkSurveyParametersBiz(){if(checkDataElementBiz()){var a=surveyParametersBiz[locationUrl].ctaLink;if(0==jQuery("#tagmanager_box_survey").length)aiutaci_a_migliorare_Biz(surveyParametersBiz[locationUrl].anchorLink,a);else if(1==jQuery("#tagmanager_box_survey").length){a!==jQuery("#tagmanager_box_survey a")[0].href&&(jQuery("#tagmanager_box_survey").remove(),aiutaci_a_migliorare_Biz(surveyParametersBiz[locationUrl].anchorLink,a))}}_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - function checkSurveyParametersBiz() called")}var surveyParametersBiz=_satellite.getVar("DL_Configuration_Survey_Aiutaci_area_BUSINESS"),locationUrl=window.location.href.split("?")[0];$(document).ready((function(){checkSurveyParametersBiz(),_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - Document ready")})),$(window).bind("hashchange",(function(){checkSurveyParametersBiz(),_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - Location changed")})),setTimeout((function(){checkSurveyParametersBiz(),_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - Timeout")}),1500);
 </script><script type="text/javascript" src="Accedi%20o%20Registrati_files/custom.js"></script><button id="chat_button" class="draggable_chatbot" onclick="openChat()" onmouseover="showTooltip()" onmouseout="hideTooltip()"><div id="tooltip" hidden=""></div><img draggable="false" src="Accedi%20o%20Registrati_files/button_openChat.png" class="static" aria-label="Apri la chat"><img draggable="false" src="Accedi%20o%20Registrati_files/button_chatIdle.gif" class="animation" aria-label="Apri la chat"></button>	<div id="widget_container" class="draggable_chatbot" hidden=""><div id="widget" role="alert" aria-live="assertive" aria-atomic="true"><div id="widget_header"><div id="widget_header_icon"></div><div id="widget_header_title"></div><div id="widget_header_subtitle"></div><div id="widget_btn_group"><button class="icon minimize" onclick="resizeChat()" aria-label="Riduci Live Chat"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100"><rect class="cx-svg-icon-tone1" width="100" height="18" y="82" x="0"></rect></svg></button><button class="icon close" onclick="openClosureConfirm()" aria-label="Chiudi Live chat"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100"><path class="cx-svg-icon-tone1" d="M100,14.29,64.28,50,100,85.7,85.7,100,50,64.28,14.3,100,0,85.7,35.72,50,0,14.29,14.3,0,50,35.71,85.7,0Z" transform="translate(-0.02 -0.01)"></path></svg></button></div></div><div id="widget_body" onclick="aTagHandler(event)"><div class="dialog" id="widget_closure_confirm" hidden=""><p>Sei sicuro di voler chiudere la chat?</p><div class="buttons"><button class="btn white" onclick="closeClosureConfirm()">Annulla</button><button class="btn yellow" onclick="closeChat()">Chiudi</button></div></div><div class="dialog" id="connectionError" hidden=""><h5></h5><p></p></div><div id="widget_smoked_layer" hidden=""></div><div id="widget_disclaimer"><p id="widget_privacy_text">Ciao.
- Ti informo che Poste Italiane S.p.A. e Postepay S.p.A in qualità di 
+ Ti informo che Poste Italiane S.p.A. e Postepay S.p.A in qualitÃ  di 
 Titolari del trattamento, utilizzeranno i tuoi dati personali in 
-conformità alla normativa privacy. Puoi consultare l'informativa 
+conformitÃ  alla normativa privacy. Puoi consultare l'informativa 
 completa sul sito cliccando <a href="https://www.poste.it/privacy-policy/">qui</a>.</p><div id="widget_privacy_buttons"><button class="btn white" onclick="closeChat()">Annulla</button><button class="btn yellow" onclick="closeDisclaimer()" disabled="disabled">Inizia la Chat</button></div></div><div id="spinnerContent" hidden=""><div id="spinner"></div></div><div id="connectionTimeout" onclick="connectionTimeoutHandler()" hidden=""><h5></h5><p>Mi trovi qui se hai ancora bisogno.</p></div><div id="messages" aria-live="assertive" hidden=""></div><div id="widget_textarea" hidden=""><div id="widget_inner_textarea"><textarea id="widget_message" aria-label="message" role="textbox" contenteditable="true" aria-multiline="true" placeholder="Inizia a chattare con Poste..."></textarea><div id="widget_send_btn" onclick="sendTextMessageHandler(document.getElementById('widget_message').value)"><img draggable="false" src="Accedi%20o%20Registrati_files/button_send.png" title="INVIA"></div></div></div></div></div></div></body></html>
