@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="it" class="pi-lg pi-firefox pi-domain pi-domain-posteit" style="overflow: inherit;"><head><style type="text/css">.truste_caIcon_display {display: block !important;}</style><style type="text/css">@font-face {font-family: "Source Sans Pro";src: url(https://consent.trustarc.com/get?name=SourceSansPro-Regular.ttf) format("truetype"),url(https://consent.trustarc.com/get?name=SourceSansPro-Regular.woff) format("woff"),url(https://consent.trustarc.com/get?name=SourceSansPro-Regular.otf) format("opentype"),url(https://consent.trustarc.com/get?name=SourceSansPro-Regular.eot) format("embedded-opentype");}.truste_cursor_pointer {cursor: pointer;}.truste_border_none {border: none;}.truste_accessible_link {font-family: "Source Sans Pro", sans-serif;color: #1D4ED8;font-size: 14px;font-weight: 600;text-decoration: underline;}.truste_accessible_link:hover {color: #1D4ED8;text-decoration: none !important;}.truste_accessible_link:focus-visible {outline: none;border-radius: 4px;box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 4px #3699F1;}</style><style type="text/css">.ta-display-none { display: none; }</style>
+		<title>Accedi o Registrati</title>
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, user-scalable=0">
+		
+		<!-- Stili slick -->
+		<link type="text/css" rel="stylesheet" href="Accedi%20o%20Registrati_files/slick.min.css">
+		<link type="text/css" rel="stylesheet" href="Accedi%20o%20Registrati_files/accessible-slick-theme.min.css">
+		
+		<!-- Stili base-->
+		<link type="text/css" rel="stylesheet" href="Accedi%20o%20Registrati_files/bootstrap.min.css">
+		<!-- <link type="text/css" rel="stylesheet" href="/assets-da/core/css/core.min.css"> -->
+		<link type="text/css" rel="stylesheet" href="Accedi%20o%20Registrati_files/core.min.custom.css">
+		<link type="text/css" rel="stylesheet" href="Accedi%20o%20Registrati_files/custom.css">
+		
+		<script type="text/javascript" src="Accedi%20o%20Registrati_files/jquery.min.js"></script>
+		
+		<!-- Tutti gli altri Js -->
+		<script src="Accedi%20o%20Registrati_files/bootstrap.min.js"></script>
+		
+		<!-- vendors di default -->
+		
+		<script src="Accedi%20o%20Registrati_files/slick.min.js"></script>
+		
+		<script>
+			$(function(){
+				$('#checkbox-remember').on('change',function(){
+					if($(this).is(':checked')){
+						$('#rememberme').val() == "on";
+					}
+					else{
+						$('#rememberme').val() == "";
+					}
+				})
+				$(window).resize();
+			});
+		</script>
+		
+		<script type="text/javascript">
+			$(function(){
+				$('#checkbox-remember').on('change', function(){
+					if($(this).is(':checked')){
+						$('#rememberme').val("on"); 
+					}
+					else{
+						$('#rememberme').val(""); 
+					}
+				});
+				
+				$('#password-trigger').on('mousedown touchstart',function(){
+					$('#password').attr('type','text');
+				}).on('mouseup touchend',function(){
+					$('#password').attr('type','password');
+				}).on('mouseleave',function(){
+					$('#password').attr('type','password');
+				});
+			});
+			
+			function deleteRememberMe() {
+				$('#username').val("");
+				$('#firstname').text("");
+				$('.rememberme_hidden').show();
+				$('.rememberme_shown').hide();
+				$('#rememberme').val(""); 
+			}
+			
+			
+		</script>
+		
+		
+		<script src="Accedi%20o%20Registrati_files/launch-EN592261e36dc14b10a9936e854a4b30db.min.js" async=""></script>
+		
+		
+		
+		
+		
+		
+
+   
+    
+
+<script type="text/javascript" src="Accedi%20o%20Registrati_files/x-jod-poste-id.js"></script>
+
+
+	
+
+
+
+
+	
+<script type="text/javascript" src="Accedi%20o%20Registrati_files/hashtable.js"></script>
+<script type="text/javascript" src="Accedi%20o%20Registrati_files/rsa.js"></script>
+<script type="text/javascript" src="Accedi%20o%20Registrati_files/pbase-css-poste.js"></script>
+
+
+
+
+<script type="text/javascript" src="Accedi%20o%20Registrati_files/jdpolling.js"></script>
+<script type="text/javascript">
+	const appsmodalimgJs = new Map();
+	
+	
+			appsmodalimgJs.set("ALL", "/risorse_dt_ext/icone/small-modal-ico-pp-pt.png");
+	
+			appsmodalimgJs.set("app-bpol", "/risorse_dt_ext/icone/small-modal-ico-bp.png");
+	
+			appsmodalimgJs.set("app-up", "/risorse_dt_ext/icone/small-modal-ico-pt.png");
+	
+			appsmodalimgJs.set("app-up,app-bpol", "/risorse_dt_ext/icone/small-modal-ico-bp-pt.png");
+	
+			appsmodalimgJs.set("app-sca-demo", "/risorse_dt_ext/icone/small-modal-ico-bp.png");
+	
+			appsmodalimgJs.set("app-bpol,app-ppay", "/risorse_dt_ext/icone/small-modal-ico-bp-pp.png");
+	
+			appsmodalimgJs.set("app-quaresima", "/risorse_dt_ext/icone/small-modal-ico-pt.png");
+	
+			appsmodalimgJs.set("app-ppay,app-up", "/risorse_dt_ext/icone/small-modal-ico-pp-pt.png");
+	
+			appsmodalimgJs.set("app-up,app-ppay", "/risorse_dt_ext/icone/small-modal-ico-pp-pt.png");
+	
+			appsmodalimgJs.set("app-bpol,app-up", "/risorse_dt_ext/icone/small-modal-ico-bp-pt.png");
+	
+			appsmodalimgJs.set("app-up,app-bpol,app-ppay", "/risorse_dt_ext/icone/small-modal-ico-bp-pp-pt.png");
+	
+			appsmodalimgJs.set("app-ppay", "/risorse_dt_ext/icone/small-modal-ico-pp.png");
+	
+			appsmodalimgJs.set("app-bpol,app-ppay,app-up", "/risorse_dt_ext/icone/small-modal-ico-bp-pp-pt.png");
+	
+</script>
+
+
+
+<script type="text/javascript">
+function logintest(actForm) {
+	try {
+		posteSubmit(actForm);
+	} 
+	catch (e) {};
+	return true;
+}
+
+var organizationmessage = "Poste it";
+var federated = true;
+var issuer = "onewebcommon-web";
+var cancelurl = "/jod-fcc/idplogin?cancel=1";
+var sp_link = "";
+var sp_link_label = "";
+var sp_subtitle = "";
+var sp_posteid = true;
+var sp_business = true;
+</script>
+
+		<script type="text/javascript">
+		$(function(){
+			var isRememberMe = false
+			if(isRememberMe){
+				$('#username').val("");
+				$('#firstname').text("");
+				$('.rememberme_hidden').hide();
+				$('.rememberme_shown').show();
+				$('#rememberme').val("on"); 
+			}
+		})
+		</script>
+	<script src="Accedi%20o%20Registrati_files/AppMeasurement.min.js" async=""></script><script src="Accedi%20o%20Registrati_files/AppMeasurement_Module_ActivityMap.min.js" async=""></script><script src="Accedi%20o%20Registrati_files/RC523328b122bf4a2c862065fb1ef4e2ef-source.min.js" async=""></script><script src="Accedi%20o%20Registrati_files/RCf8864340901d4042a0e240e9065de133-source.min.js" async=""></script><script src="Accedi%20o%20Registrati_files/RC8aa87fca72874dd38dc329f821a64745-source.min.js" async=""></script><script src="Accedi%20o%20Registrati_files/RC963484a5e17c44099242a8d15abdb293-source.min.js" async=""></script><script src="Accedi%20o%20Registrati_files/RC5514c4bc27f24ebead3a11d1ab123c0b-source.min.js" async=""></script><script src="Accedi%20o%20Registrati_files/RCac0d5838bbeb4039951c23a60274fc69-source.min.js" async=""></script><link rel="stylesheet" href="Accedi%20o%20Registrati_files/chat_common.css" type="text/css"><link rel="stylesheet" href="Accedi%20o%20Registrati_files/chat_custom.css" type="text/css"></head>
+	<body class="pattern-simple-01" style="overflow: inherit;">
+		
+		<div class="content-alert-browser">
+			<div id="consent_blackbar"></div>
+		</div>
+	
+		<nav id="skiplink" aria-label="Navigazione di pagina">
+	        <ul>
+	            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto principale</a></li>
+	            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+	        </ul>
+	    </nav>
+		<header>
+	        <!-- Content Navbar-->
+	        <div class="content" id="content-navbar">
+	            <div class="content-wrap">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-sm-12">
+	                            <div class="content-navbar-wrap">
+	                            	<div class="row">
+								        <div class="col-sm-12">
+								            <nav class="navbar navbar-default navbar-flow" id="nav-def-flux" aria-label="barra di navigazione: menu, ricerca del sito e assistenza">
+								                <!-- Brand and toggle get grouped for better mobile display -->
+								                <div class="navbar-header justify-content-sm-end">
+								                  <!-- <div class="navbar-wrap w-100 justify-content-start hidden-xs">&nbsp;</div> -->
+								                  <div class="navbar-wrap">
+								                    <a class="navbar-brand" href="https://www.poste.it/index.html" title="Torna a Poste.it">
+								                        <img id="logo" alt="Logo PosteItaliane" src="Accedi%20o%20Registrati_files/logo-poste-italiane.png" srcset="Accedi%20o%20Registrati_files/logo-poste-italiane@2x.png 2x">
+								                    </a>
+								                  </div>
+								                  <div class="navbar-wrap w-100 justify-content-end">
+								                    <ul class="nav navbar-nav text-right">
+								                        
+								                        <li>
+								                          <a class="navbar-object" href="https://securelogin.poste.it/jod-fcc/idplogin?cancel=1" title="Chiudi">
+								                              <span class="icon">
+								                          		<svg focusable="false">
+									                            	
+									                            	<use xlink:href="/assets-da/core/img/iconset/sprite.svg#009a-close-m"></use>
+								                          		</svg>
+								                        	  </span>
+								                        	  <span class="obj-label"><span class="sr-xs-only">Chiudi</span></span>
+								                          </a>
+								                        </li>
+								                      
+								                    </ul>
+								                  </div>
+								                </div>
+								            </nav>
+								        </div>
+								    </div>
+								</div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </header>
+		<main id="accessibility-anchor" tabindex="-1" class="focus-mouse">
+        	<div class="content" id="content-abstract">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="abstract">
+                                    <div class="abstract-heading text-center">
+                                        <h1>Accedi</h1>
+                                        <span class="abstract-subtitle">Per accedere a <strong><span id="titolo-fcc">Poste it</span></strong> devi essere registrato.</span>
+                                        
+                                        <a class="btn btn-xs btn-default btn-link" title="Se sei un cliente business clicca qui." href="https://business.poste.it/business/myposte/index.html">
+                                            <span class="icon me-1">
+                                            <img src="Accedi%20o%20Registrati_files/business-account.svg" srcset="Accedi%20o%20Registrati_files/business-account.svg 1x">
+                                                <svg focusable="false">
+                                                    
+                                                </svg>
+                                            </span>
+                                            Se sei un cliente business clicca qui.
+                                        </a>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="content-main">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row row-space">
+                            <div class="col-sm-6">
+                                <div class="main-pills">
+                                    <div class="main-pills-wrap">
+                                        <div class="row">
+                                            <div class="col-sm-12 equalize" style="min-height: 547px;">
+                                                <h2 class="text-center mt-4 mb-3 rememberme_hidden">Inserisci le tue credenziali</h2>
+                                                
+                                                <div class="row rememberme_hidden">
+                                                    <div class="col-sm-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 text-center">
+                                                        <p>Non hai un account?</p>
+                                                        <p class="text-center">
+                                                        	<a class="btn btn-xs btn-default btn-link" title="Registrati" href="https://www.poste.it/posteit-retail-registration-service/webapp/index.html">
+                                                                <span class="icon me-1">
+                                                                    <svg focusable="false">
+                                                                        
+                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m" href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                Registrati
+                                                            </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="row row-space text-xs-center rememberme_shown" style="display:none">
+													<img src="Accedi%20o%20Registrati_files/empty-profile.png" srcset="Accedi%20o%20Registrati_files/empty-profile@2x.png 2x"> 
+													<h4 id="firstname"></h4>
+													<p><a href="javascript:deleteRememberMe();">Non sei tu?</a></p>
+												</div>
+												<div id="deeplinkid" class="row hidden">
+													
+										            	<div class="col-sm-12">
+	            											<div class="box-rack flex flex-row box-cyan my-3 py-3 py-sm-4 gap-3">
+	            												<div class="box-wrap flex justify-content-start align-items-center">
+	            													<span class="icon icon-48 flex align-items-center">
+											                            <img class="img-responsive" src="Accedi%20o%20Registrati_files/accedi-con-poste-italiane-@1x.png" srcset="Accedi%20o%20Registrati_files/accedi-con-poste-italiane-@2x.png 2x" alt="icona app poste italiane">
+											                        </span>
+	            												</div>
+	                											<div class="box-body">
+	                    											<span class="fw-bold block">
+												                      Hai l'App Poste Italiane?<br>
+												                      <a href="javascript:void(0);" id="deeplinkid_a_up" onclick="deepLinkOpen('app-up');">Accedi più rapidamente</a>
+	                            									</span>
+											                    </div> 
+											                </div>
+											            </div>
+											             
+										            
+											    </div>
+												<form id="form-login" method="POST" action="/jod-fcc/login" name="loginf" onsubmit="logintest(this)">
+	                                                <div class="row row-space">
+    	                                            	<div class="col-sm-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 mt-0 mt-sm-2 mb-3">
+											        		<input type="hidden" name="dep" id="dep" value="">
+															<input type="hidden" name="dop" id="dop" value="">
+															<input type="hidden" name="evp" id="evp" value="">
+															<input type="hidden" name="mid" id="mid" value="">
+															<input type="hidden" name="rememberme" id="rememberme" value="">
+                                                    		<fieldset>
+                                                        		<legend class="sr-only">Credenziali di accesso</legend>
+                                                        		<div class="form-group form-group-abs rememberme_hidden">
+                                                            		<label class="control-label" for="username">Nome utente</label>
+                                                            		<input type="text" class="form-control" id="username" name="username" placeholder="" title="Nome utente">
+                                                        		</div>
+                                                        		<div class="form-group form-group-abs">
+			                                                    	<label for="password" class="control-label">Password</label>
+			                                                        <div class="input-group">
+			                                                            <input type="password" value="" placeholder="" id="password" name="password" class="form-control">
+			                                                            <div class="input-group-addon">
+			                                                                <button class="btn btn-addon" type="button" title="Visualizza/nascondi password" tabindex="-1" id="password-trigger">
+			                                                                    <span class="icon">
+			                                                                        <svg focusable="false">
+			                                                                            
+			                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m" href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m">
+			                                                                            </use>
+			                                                                        </svg>
+			                                                                    </span>
+			                                                              	</button>
+			                                                            </div>
+			                                                        </div>
+			                                                        <div class="form-check mt-1" role="presentation">
+			                                                            <input id="checkbox-remember" type="checkbox">
+			                                                            <label class="control-label" for="checkbox-remember">Ricorda il mio nome utente</label>
+			                                                        </div>
+			                                                    </div>
+															</fieldset>
+                                                    	</div>
+                                                	</div>
+                                                	<p class="text-center">
+	                                                	
+                                                		<a class="rememberme_hidden" title="Recupera il nome utente o la password" href="https://www.poste.it/posteit-retail-selfcare-service/webapp/index.html">
+															Recupera il nome utente o la password
+														</a>
+		                                                <a class="rememberme_shown" style="display:none" title="Hai dimenticato la password?" href="https://www.poste.it/posteit-retail-selfcare-service/webapp/index.html">
+		                                                    Hai dimenticato la password?
+		                                                </a>
+		                                                
+		                                            </p>
+		                                            <p class="btn-container btn-container-center mt-3 mt-md-4">
+		                                                <button form="form-login" type="submit" data-toggle="modal" data-target="#loginModal" title="Accedi" class="btn btn-responsive btn-primary">Accedi</button>
+		                                            </p>
+												</form>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                            <!-- panel qrcode  -->
+								
+								<div class="col-sm-6 hidden-xs">
+                            		<div class="main-pills">
+	                                    <div class="main-pills-wrap login-content">
+	                                        <div class="row">
+	                                            <div class="col-sm-12 equalize hidden-xs" style="min-height: 547px;">
+	                                                <h2 class="text-center mt-4">Accedi più velocemente</h2>
+	                                                <div class="box-editable-area">
+	                                                    <div class="box-body">
+	                                                        <p class="text-center">Inquadra il codice QR con l'app <b>Poste Italiane</b></p>
+	                                                    </div>
+	                                                    <p class="text-center">
+	                                                    	<img src="Accedi%20o%20Registrati_files/p@1x.png" srcset="Accedi%20o%20Registrati_files/p@2x.png 2x" class="mt-4 mb-4 center-inline">
+	                                                    </p>
+	                                                    
+	                                                </div>
+	                                                <img class="img-responsive mt-4 mb-4 center-block" src="Accedi%20o%20Registrati_files/qrcodelogin.gif" alt="Scansiona questo codice per effettuare l'accesso. Scorri in basso per conoscere il tempo rimanente.">
+	                                                <div class="box-editable-area mt-4">
+	                                                    <div class="box-body">
+	                                                        <p class="text-center">
+	                                                        	Il codice è valido per <span id="_timer">03:27</span></p>
+	                                                    </div>
+	                                                </div>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+								
+	                         </div>
+	                         <!-- area ID PosteID Abilitato SPID  -->
+							 
+	                         <div class="row">
+	                            <div class="col-sm-12">
+	                                <div class="main-pills mode-light">
+	                                    <div class="main-pills-wrap extra-service-content">
+											<div class="row equalize-group">
+										        <div class="col-xs-12 col-sm-3">
+										            <div class="extra-service-content-logo text-left flex justify-content-center align-items-center equalize-1" style="min-height: 100px;">
+										                <img loading="lazy" class="img-responsive" width="172" height="48" src="Accedi%20o%20Registrati_files/posteID@1x.png" srcset="Accedi%20o%20Registrati_files/posteID@2x.png 2x" alt="">
+										            </div>
+										        </div>
+											        <div class="col-sm-9 col-xs-12 equalize-1" style="min-height: 100px;">
+											            <div class="row mt-3 mt-sm-0 ms-sm-3">
+											                <div class="col-xs-12 col-md-7">
+											                    <div class="box-editable-area">
+											                        <h2>Accedi con PosteID</h2>
+											                        <div class="box-body">
+											                            <p>
+											                                Puoi eseguire l'accesso con l'Identità Digitale
+																			PosteID abilitato a SPID. 
+																			<a href="https://posteid.poste.it/identificazione/identificazione.shtml">
+																				Scopri di più
+																			</a>.
+											                            </p>
+											                        </div>
+											                    </div>
+											                </div>
+											                <div class="col-xs-12 col-md-5">
+											                    <p class="btn-container equalize-1 height-sm-auto height-xs-auto flex justify-content-xs-start justify-content-sm-start justify-content-md-center align-items-center mt-3 mt-md-0 " style="min-height: 100px;">
+											                        <a href="https://posteid.poste.it/jod-securelogin-schema/idplogin?key=ZTjWcY8XAkbpiCA25DhcJGqHJlu67PpgfVSbzxaue5w3B2EXjpAlNg.e7sgERiDnPY64s3rJjLd8Q.wzLF8yugWwe5Xqv6nhdiIEgMaTTTiBy9cyVzZC9JzdmAPTUKl2OHaWj6syeAzzrX6li-sNbQKaz7RsLRv9qB5Yw31wuZA6pqbU6liwKif2CLrAiNezr-P7WicDbGQjsWX0EJ3okhABVglUO8GVUPYXpoejpI0WwkJKp1nI3kjntYgxs9nU-jds8es6m5LH6PuUNanUevfgXMciIkt7eIiah9zMIdhaMrQNV3N5Mt_AktWxNuEA2E7COvuvltzxbfsnD6VK7694w20KPmQEmOcdTEr_vWEL6Cwy__hXbVboMsHXdDnL4MbKmiD2IZTOtxUERnJl5Ew0LQ26lEqF-gOYR7YFXPcmOvzEPYaLKuVFb3A9jMyeZgeJRlq5jQIGaPyS7MYWoUobofi-2wTt_erH2pTCn8AOG-nJzslMj5crQMAjxqWQc2ptYL1a_jCAwYu-BJ-u1sM3oaRzNkfMHFW8kMiwVFdJw-YGCuoBtAZx0G7EcYFNGK__oEH_j4xlotacIrWk_21i7z2V8FCCw2Z0mby5fKSlVV8kU-9xUSaWI2qPlyDG9ERSSt-OSoy6N6sY8jd2Q_3TDvaolMjpkHJ8gECxFNFftk3QwWeBIK6I0QCJ1f9URYipFI_Xu68-RdZCDCakQ6XkICAncUBrICGuZfdqwYkuiuNIGRaxUS0ypMmsmDjwx8Sn0p9x6F03v6WaZcD4DohwbiIkcPWHDYcO2mqjOOK5GhMNXksoaQ8PT0gdoupp9-W7BcR3xfMa13mWK8T92F5lNLJlS7a6nqV-Np7hH_rmD3VRiDBs3AGI2__HMFUyiD1hHKVA0U2ZzjipxdZ40pldwLCn5COSl5U5R4hCkBsJ1lYHeGPKxo8x8.CQymlVhpmiFzlWsGrRoFrw" id="bottonePosteID" title="Accedi con PosteID" class="btn btn-responsive btn-secondary" role="button">Accedi con PosteID</a>
+											                    </p>
+											                </div>
+											            </div>
+											        </div>
+											    </div>
+											</div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        
+		                    </div>
+		                </div>
+		            </div>
+            		<form name="xqr" id="xqr" method="POST" action="/jod-fcc/qrcodelogin">
+						<input name="x-user-signature-transaction" id="x-user-signature-transaction" type="hidden" value="">
+						<input type="hidden" name="x-dep" id="x-dep" value="">
+						<input type="hidden" name="x-dop" id="x-dop" value="">
+						<input type="hidden" name="x-evp" id="x-evp" value="">
+						<input type="hidden" name="x-mid" id="x-mid" value="">
+					</form>
+    			</main>
+	    		<footer>
+	    			<div class="content content-footer content-footer-extra">
+			            <div class="content-wrap">
+			                <div class="container">
+			                    <div class="row">
+			                        <div class="col-sm-12">
+			                            <div class="row my-4">
+										    <div class="col-sm-8">
+										        <div class="clearfix">
+										            <div class="base-footer mt-3 mt-sm-0">
+										                <div class="clearfix">
+										                    <ul class="list-unstyled pull-sm-left">
+										                        <li><span class="block fs-small text-xs-center text-sm-left">© Poste Italiane 2026 - Partita iva : 01114601006</span></li>
+										                        <!--   <li><p id="teconsent" class="block fs-small text-xs-center text-sm-right"></p></li> -->
+										                    </ul>
+										                </div>
+										            </div>
+										        </div>
+										    </div>
+										    <div class="col-sm-4">
+												<div class="text-center text-sm-right" id="teconsent" consent="0">
+												<script src="Accedi%20o%20Registrati_files/v1.7-1612" async="async" crossorigin="" importance="high"></script><a role="link" id="icon-id05640284734049734" tabindex="0" lang="it" aria-label="Preferenze Cookie" class="truste_cursor_pointer">Preferenze Cookie</a></div>																										            
+											</div>
+										</div>
+										<button class="btn btn-cta btn-primary back-to-top">
+										    <span class="icon">
+										        <svg focusable="false">
+										            
+										            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#007b-expand-less-m"></use>
+										        </svg>
+										    </span>
+										</button>
+			                        </div>
+			                    </div>
+			                </div>
+			            </div>
+        			</div>
+					<!-- Script -->
+					<script type="text/javascript" src="Accedi%20o%20Registrati_files/utilita.js"></script>
+					<script type="text/javascript" src="Accedi%20o%20Registrati_files/poste-it.js"></script>
+					<script type="text/javascript" src="Accedi%20o%20Registrati_files/start-script.js"></script>
+					
+	    		</footer>
+    		
+	<script type="text/javascript">
+		function xxxerror(data) {
+		
+		setTimeout(function() {
+			try {	
+				window.location.replace("/jod-fcc/idplogin?cancel=1");	
+			} catch (e) {
+				window.location.href = "/jod-fcc/idplogin?cancel=1";
+			}
+		}, 3000);
+	
+		}
+	</script>
+		
+	
+	<!-- The QR Modal -->
+      <div class="modal" id="modalQrWaiting" tabindex="-1" role="dialog" aria-labelledby="modalQrWaitingLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+             <div class="modal-content text-center">
+			 	  <div class="modal-body">
+			 	  	<h2 id="modalQrWaitingLabel">Controlla il tuo smartphone</h2>
+					<p>Per proseguire devi autorizzare con l'app <b>Poste Italiane</b></p>
+					<p></p><div id="__polling_progress__"></div><p></p>
+					<img loading="lazy" width="218" height="162" src="Accedi%20o%20Registrati_files/fattore2@1x.png" srcset="Accedi%20o%20Registrati_files/fattore2@2x.png 1x" alt="">
+				  </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-xs btn-secondary" data-dismiss="modal">Annulla</button>
+                </div>
+             </div>
+        </div>
+    </div>
+
+  		<!-- QR Modal content -->
+	
+	<!-- DEEPLINK MODAL START -->
+	<div class="modal" id="modalDeepLinkWaiting" tabindex="-1" role="dialog" aria-labelledby="modalDeepLinkWaitingLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content text-center">
+				<div class="modal-body">
+					<h3 class="spacer-xs-bottom-30" id="modalDeepLinkWaitingLabel"><p id="appDescription"></p></h3>
+					<img id="imgmyappdeeplink" src="Accedi%20o%20Registrati_files/small-modal-ico-pt.png">
+					<p id="appDescriptionTxt"></p>
+					
+				  	<p></p><div id="__polling_progress__"></div><p></p>
+				</div>
+				<div class="modal-footer text-center">
+                    <button type="button" class="btn btn-xs btn-secondary" data-dismiss="modal" id="close">Annulla</button>  
+                </div>
+          </div>
+      </div>
+    </div>
+	<!-- DEEPLINK MODAL END -->
+	
+<script language="javascript">
+	
+	function xxxsuccess(xdata) {
+
+		try {
+			var f = document.getElementById("x-user-signature-transaction");
+			var obj_p = JSON.parse(xdata);
+			f.value=obj_p.usersignaturetransaction;
+			
+			var xqr = document.getElementById("xqr");
+			logintest(xqr);
+			
+			var dep = document.getElementById("dep");
+			document.getElementById("x-dep").value=dep.value;
+			
+			var dop = document.getElementById("dop");
+			document.getElementById("x-dop").value=dop.value;
+			
+			var evp = document.getElementById("evp");
+			document.getElementById("x-evp").value=evp.value;
+			
+			var mid = document.getElementById("mid");
+			document.getElementById("x-mid").value=mid.value;
+
+			
+			
+			xqr.submit();
+			
+		} catch (e) {
+			//alert(e);
+		}
+	
+		
+		
+		//alert("OK");
+		
+		
+	}
+	
+ 	$('#modalQrWaiting').on('hide.bs.modal', function(){
+		stopPolling();
+	})
+	
+ 	$('#modalDeepLinkWaiting').on('hide.bs.modal', function(){
+		stopPolling();
+	})
+	
+function getStatus() {
+	var status = jdstatus();
+	if ("az_timeout" == status || "az_rejected" == status || "az_error" == status) {	
+		document.getElementById('__polling_progress__').innerHTML = "La richiesta di accesso &egrave; stata annullata";
+	}
+	setTimeout(getStatus, 100);
+}
+getStatus();
+
+function startTimer(duration,display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+		if (display!=null) {
+			display.innerHTML = minutes + ":" + seconds;
+		}
+        if (--timer < 0) {
+			timer = 0;
+            xxxerror();
+        }
+    }, 1000);
+}
+
+var tt =  document.getElementById('_timer');
+// 60 * 5
+startTimer(60*5, tt);
+
+</script>
+
+<script type="text/javascript">
+      var mobile = $('html').hasClass('pi-mobile');
+      
+      function startDirect() {
+		if(mobile){
+			
+			$('#deeplinkid').removeClass('hidden');
+			
+			return;
+		}
+		jd_qrpush("https://idp-poste.poste.it/jod-idp-retail/polling/v1/app-qr", "20da8dd9-10b1-4a4a-82fe-c161f80a646e",  xxxsuccess, xxxerror, "modalQrWaiting");
+      }
+      
+      startDirect();
+
+      	function deepLinkOpen(appType) {
+	      
+	      		jd_qrpushDeepLink("https://idp-poste.poste.it/jod-idp-retail/polling/v1/app-qr", "20da8dd9-10b1-4a4a-82fe-c161f80a646e",  xxxsuccess, xxxerror, "modalDeepLinkWaiting", appType);
+	      		
+				var url = "";
+				if (appType == "app-bpol") {
+					url = buildLink("https://ppayapp.mobile.poste.it/jod-mobile-server/qrcs/bp/access/v1/?clusterID=1&tranId=", "posteitaliane.posteapp.appbpol", "false", "20da8dd9-10b1-4a4a-82fe-c161f80a646e");
+				} else if (appType == "app-ppay") {
+					url = buildLink("https://ppayapp.mobile.poste.it/jod-mobile-server/qrcs/pp/access/v1/?clusterID=1&tranId=", "posteitaliane.posteapp.apppostepay", "false", "20da8dd9-10b1-4a4a-82fe-c161f80a646e");
+				}
+				else if (appType == "app-up") {
+					url = buildLink("https://ppayapp.mobile.poste.it/jod-mobile-server/qrcs/up/access/v1/?clusterID=1&tranId=", "com.posteitaliane.spim", "false", "20da8dd9-10b1-4a4a-82fe-c161f80a646e");
+				}
+				
+				try {
+					window.location.replace(url);
+				} catch (e) {
+					window.location.href = url;
+				}
+				
+	      
+      	}
+      	
+      	
+ </script>
+
+
+
+		<div id="overlay" class="overlay" aria-hidden="true" style="display: none;">
+		</div>
+		<deepl-input-controller></deepl-input-controller>
+	
+		
+		<script language="JavaScript">
+		
+		</script>
+				
+
+		
+        
+		<form name="loginform1" id="loginform1" method="post" action="/jod-fcc/dislogin">
+			<input type="hidden" value="" id="secureToken" name="secureToken">
+			<input type="hidden" value="" id="signature" name="signature">
+			<input type="hidden" name="dep" id="dep" value="">
+			<input type="hidden" name="dop" id="dop" value="">
+			<input type="hidden" name="evp" id="evp" value="">
+			
+		</form>  
+						
+		<script type="text/javascript">
+		jQuery("#x_chiudi").attr("href", "https://postepay.poste.it/");
+		</script>
+
+		
+		
+		<script type="text/javascript">
+		$('#_nocookie').toggleClass("hide");
+	//	$('#bottonePosteID').html('<div class="bottonePosteID-wrapper"><a href="https://posteid.poste.it/jod-securelogin-schema/idplogin?key=ZTjWcY8XAkbpiCA25DhcJGqHJlu67PpgfVSbzxaue5w3B2EXjpAlNg.e7sgERiDnPY64s3rJjLd8Q.wzLF8yugWwe5Xqv6nhdiIEgMaTTTiBy9cyVzZC9JzdmAPTUKl2OHaWj6syeAzzrX6li-sNbQKaz7RsLRv9qB5Yw31wuZA6pqbU6liwKif2CLrAiNezr-P7WicDbGQjsWX0EJ3okhABVglUO8GVUPYXpoejpI0WwkJKp1nI3kjntYgxs9nU-jds8es6m5LH6PuUNanUevfgXMciIkt7eIiah9zMIdhaMrQNV3N5Mt_AktWxNuEA2E7COvuvltzxbfsnD6VK7694w20KPmQEmOcdTEr_vWEL6Cwy__hXbVboMsHXdDnL4MbKmiD2IZTOtxUERnJl5Ew0LQ26lEqF-gOYR7YFXPcmOvzEPYaLKuVFb3A9jMyeZgeJRlq5jQIGaPyS7MYWoUobofi-2wTt_erH2pTCn8AOG-nJzslMj5crQMAjxqWQc2ptYL1a_jCAwYu-BJ-u1sM3oaRzNkfMHFW8kMiwVFdJw-YGCuoBtAZx0G7EcYFNGK__oEH_j4xlotacIrWk_21i7z2V8FCCw2Z0mby5fKSlVV8kU-9xUSaWI2qPlyDG9ERSSt-OSoy6N6sY8jd2Q_3TDvaolMjpkHJ8gECxFNFftk3QwWeBIK6I0QCJ1f9URYipFI_Xu68-RdZCDCakQ6XkICAncUBrICGuZfdqwYkuiuNIGRaxUS0ypMmsmDjwx8Sn0p9x6F03v6WaZcD4DohwbiIkcPWHDYcO2mqjOOK5GhMNXksoaQ8PT0gdoupp9-W7BcR3xfMa13mWK8T92F5lNLJlS7a6nqV-Np7hH_rmD3VRiDBs3AGI2__HMFUyiD1hHKVA0U2ZzjipxdZ40pldwLCn5COSl5U5R4hCkBsJ1lYHeGPKxo8x8.CQymlVhpmiFzlWsGrRoFrw"><img src="/risorse_dt/condivise/immagini/loghi/logo-posteid.png" srcset="/risorse_dt/condivise/immagini/loghi/logo-posteid@2x.png 2x" class="" /><span class="wrapperPosteID-info">Entra con PosteID <span class="wrapperPosteID-name"></span></span></a></div><div class="newUserPosteID-wrapper"></div>');
+		$('#bottonePosteID').attr("href","https://posteid.poste.it/jod-securelogin-schema/idplogin?key=ZTjWcY8XAkbpiCA25DhcJGqHJlu67PpgfVSbzxaue5w3B2EXjpAlNg.e7sgERiDnPY64s3rJjLd8Q.wzLF8yugWwe5Xqv6nhdiIEgMaTTTiBy9cyVzZC9JzdmAPTUKl2OHaWj6syeAzzrX6li-sNbQKaz7RsLRv9qB5Yw31wuZA6pqbU6liwKif2CLrAiNezr-P7WicDbGQjsWX0EJ3okhABVglUO8GVUPYXpoejpI0WwkJKp1nI3kjntYgxs9nU-jds8es6m5LH6PuUNanUevfgXMciIkt7eIiah9zMIdhaMrQNV3N5Mt_AktWxNuEA2E7COvuvltzxbfsnD6VK7694w20KPmQEmOcdTEr_vWEL6Cwy__hXbVboMsHXdDnL4MbKmiD2IZTOtxUERnJl5Ew0LQ26lEqF-gOYR7YFXPcmOvzEPYaLKuVFb3A9jMyeZgeJRlq5jQIGaPyS7MYWoUobofi-2wTt_erH2pTCn8AOG-nJzslMj5crQMAjxqWQc2ptYL1a_jCAwYu-BJ-u1sM3oaRzNkfMHFW8kMiwVFdJw-YGCuoBtAZx0G7EcYFNGK__oEH_j4xlotacIrWk_21i7z2V8FCCw2Z0mby5fKSlVV8kU-9xUSaWI2qPlyDG9ERSSt-OSoy6N6sY8jd2Q_3TDvaolMjpkHJ8gECxFNFftk3QwWeBIK6I0QCJ1f9URYipFI_Xu68-RdZCDCakQ6XkICAncUBrICGuZfdqwYkuiuNIGRaxUS0ypMmsmDjwx8Sn0p9x6F03v6WaZcD4DohwbiIkcPWHDYcO2mqjOOK5GhMNXksoaQ8PT0gdoupp9-W7BcR3xfMa13mWK8T92F5lNLJlS7a6nqV-Np7hH_rmD3VRiDBs3AGI2__HMFUyiD1hHKVA0U2ZzjipxdZ40pldwLCn5COSl5U5R4hCkBsJ1lYHeGPKxo8x8.CQymlVhpmiFzlWsGrRoFrw"); 
+		</script>
+							
+			
+	
+
+<script async="async" type="text/javascript" crossorigin="" src="Accedi%20o%20Registrati_files/notice.js" id="truste_0.7857608800510515"></script><script>
+var version = "1";
+var PosteAdobe = {
+     visitorID : "NA",
+     launchDataLayer : {},
+     mergeObject : function (obj1,obj2){
+         var obj3 = {};
+         for (var attrname in obj1) { 
+            obj3[attrname] = obj1[attrname]; 
+         }
+         for (var attrname in obj2) { 
+            obj3[attrname] = obj2[attrname]; 
+         }      
+         return obj3;
+     },
+     adViewObject : function(){
+        var adView = ""
+        $('[data-wtac-container]').each(function(){
+            adView = adView + "," + $(this).attr('data-wtac-container');
+        })
+        return adView = adView.substring(1);
+        _satellite.logger.log('Get all adView: ' + adView);
+     },
+     isEmpty : function(obj){
+        for(var key in obj) {
+            if(obj.hasOwnProperty(key))
+                return false;
+        }
+        return true;
+     },
+     metaNameValueObject : function(){
+		metaNameValueObj = "";
+		$('meta[name]').each(function(){
+            metaNameValueObj = metaNameValueObj + ',"' +$(this).attr("name") +'":"'+$(this).attr("content")+'"';
+        });
+		metaNameValueObj = "{"+metaNameValueObj.substring(1)+"}";
+		metaNameValueObj = JSON.parse(metaNameValueObj);
+		_satellite.logger.log('Get all metaNameValue: ' + metaNameValueObj);
+		return metaNameValueObj;
+     },
+     dataLayer : function(){
+        this.launchDataLayer = this.mergeObject ({"scriptVersion":version},this.launchDataLayer);
+        this.launchDataLayer = this.mergeObject ({"tagBuildInfo":_satellite.buildInfo}, this.launchDataLayer);
+        this.launchDataLayer = this.mergeObject ({"adView":this.adViewObject()}, this.launchDataLayer);
+         this.launchDataLayer = this.mergeObject ({"metaNameValue":this.metaNameValueObject()}, this.launchDataLayer);
+     }
+}
+PosteAdobe.dataLayer();
+</script><script>
+var _STATE = {};
+function runOnce() {
+if (!_STATE.hasRunOnce && window.truste && truste.eu && truste.eu.prefclose) {
+console.log("doing run once");
+_STATE.oldValue = truste.eu.bindMap.prefCookie &&
+truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-');
+_STATE.oldMethod = truste.eu.prefclose;
+truste.eu.prefclose = function() {
+_STATE.oldMethod();
+if (truste.eu.bindMap.prefCookie &&
+truste.eu.bindMap.prefCookie.split(':')[0].replace(/[^\d.]/g, '-') !== _STATE.oldValue)
+setTimeout(function() { window.location.reload(); }, 20);
+};
+_STATE.hasRunOnce = true;
+_STATE.i && clearInterval(_STATE.i);
+}
+}
+_STATE.i = setInterval(runOnce, 10);
+</script><script>
+document.body.addEventListener("click", function(event) {
+if(event && event.target && event.target.id === 'truste-consent-button')
+{
+ setTimeout(() => { window.location.reload(); }, 1000);
+}
+});
+</script><script>
+function startBot(e){console.log("startBot - called"),"undefined"!=typeof setWidget?setWidget(e.access_token,e.access_token,e.contesto_chatbot,e.chatBot_mode,e.disclaimer_privacy_id,e.s2s,e.cmb_params):void 0!==this.setWidget?this.setWidget(e.access_token,e.access_token,e.contesto_chatbot,e.chatBot_mode,e.disclaimer_privacy_id,e.s2s,e.cmb_params):(console.log("startBot - setWidget udefined"),setTimeout((function(){startBot(e)}),1e3))}function appendScript(e,t,o){o.access_token=t;var n=document.createElement("script");n.type="text/javascript",n.src=e,n.onload=function(){console.log("appendScript - script loaded"),startBot(o)},document.body.appendChild(n)}function getAssembledToken(e,t,o,n){if(e.readyState==XMLHttpRequest.DONE){if(console.log("getAssembledToken - DONE"),200==e.status){console.log("getAssembledToken - status 200");try{if(parseToken(JSON.parse(e.response).data,t,o))return}catch(e){console.log("getAssembledToken - Error: "+e)}}else console.log("getAssembledToken - Status: "+e.status);loadBotPostLogin(t,n+1,o)}}function parseToken(e,t,o){try{var n=[],s=["X-Taxcode","X-Name","X-Surname","X-Mobilenumber","X-Email","X-Alias","X-Alias-Status","X-Userid","X-Roles","X-Sex","token-origin"];e&&e[s[0]]?e["token-origin"]="hermodr_fibra":(s=["taxcode","name","surname","mobileNumber","email","userId","acr","token-origin"],e["token-origin"]="userinfo_oneweb");for(var i,a=0;a<s.length;a++)if(i="",e[s[a]]&&(i=[s[a].replace("X-",""),e[s[a]]].join(":")),i.length>0)n.push(i);else if(s[a]===s[0])throw[s[0],"Missing"].join(" ");return appendScript(t,n.join("|"),o),!0}catch(e){console.log("parseToken - Error: "+e)}return!1}function getToken(e,t,o,n){if(e.readyState==XMLHttpRequest.DONE){if(console.log("getToken - DONE"),200==e.status){console.log("getToken - status 200");try{for(var s=JSON.parse(e.response).auth,i=0;i<s.length;i++)if("loa3"===s[i].oic_loa)return console.log("getToken - token found"),void appendScript(t,s[i].access_token,o)}catch(e){console.log("getToken - Error: "+e)}}else console.log("getToken - Status: "+e.status);loadBotPostLogin(t,n+1,o)}}function loadBotPostLogin(e,t,o){var n;if(console.log("loadBotPostLogin - Postlogin Area - Type "+t),1===t)n="https://fibra.poste.it/chatbot/v1/get/info";else if(2===t)n="https://posteplus.sv.poste.it/posteplus-utility-ms/api/v1/plus/get-user-info";else{if(3===t){try{oneWebCommonAPILayer.getUserInfo().then((function(t){if(!parseToken(t,e,o))throw"loadBotPostLogin - Token not found"})).catch((function(){loadBotPostLogin(e,t+1,o)}))}catch(n){loadBotPostLogin(e,t+1,o)}return}if(4!==t)return console.log("PreLogin failback"),void appendScript(e,"NA",o);n="/federation/openid/acrlevel?random="+Math.floor(1e10*Math.random()+1)}var s=new XMLHttpRequest;s.open("GET",n),s.onreadystatechange=function(){t<4?getAssembledToken(s,e,o):getToken(s,e,o,t)},s.send()}var environment="PROD",mappingFileName=["DL_Configuration_Assistente_Pixie"];"TEST"===environment&&mappingFileName.join("TEST");var urlBotConf=_satellite.getVar(mappingFileName.join("_"));if(void 0!==urlBotConf[document.location.host+document.location.pathname]){var settings=urlBotConf[document.location.host+document.location.pathname];settings.s2s=settings.s2s||!1,settings.chatBot_mode=environment;var urlscript=["https://widget"];"TEST"===environment&&urlscript.push(".test"),urlscript.push(".poste.it"),settings.iscloudbot&&urlscript.push("/cloud"),urlscript.push("/js/custom.js");var loginTypeMap={postlogin_hermodr:1,postlogin_posteplus:2,prelogin:3,postlogin:4};loadBotPostLogin(urlscript.join(""),loginTypeMap[settings.loginlevel],settings)}
+</script><script>
+function checkDataElement(){try{dataLayerAliasPage=dataLayer.funnel.alias_page}catch(a){dataLayerAliasPage=""}try{dataLayerAliasPagePlain=dataLayer.alias_page}catch(a){dataLayerAliasPagePlain=""}try{dataLayerScenarioName=dataLayer.funnel.scenario_name}catch(a){dataLayerScenarioName=""}try{dataLayerScenarioStep=dataLayer.funnel.scenario_step}catch(a){dataLayerScenarioStep=""}var a=!1;if(void 0!==surveyParameters[locationUrl]){if(a=!0,void 0!==surveyParameters[locationUrl].alias_page){var e=surveyParameters[locationUrl].alias_page;_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+' - function checkDataElement() called, value alias_page returned "'+e+'"'),dataLayerAliasPage===e||dataLayerAliasPagePlain===e?(_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+' - function checkDataElement() called, value alias_page get "'+e+'"'),a=!0):a=!1}if(void 0!==surveyParameters[locationUrl].scenario_name&&void 0!==surveyParameters[locationUrl].scenario_step){var r=surveyParameters[locationUrl].scenario_name,t=surveyParameters[locationUrl].scenario_step;dataLayerScenarioName===r&&dataLayerScenarioStep===t?(_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+' - function checkDataElement() called, value scenario_name get "'+r+'" and scenario_step get "'+t+'"'),a=!0):a=!1}return _satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+' - function checkDataElement() called, value returned "'+a+'"'),a}}function aiutaci_a_migliorare(a,e){if($(a).length>0){_satellite.getVar("DL_environment");$(a).append('<div id="tagmanager_box_survey"><div class="main-pills spacer-xs-top-30 spacer-xs-bottom-20"><div class="main-pills-wrap" id="aiutaci_a_migliorare"><h2>Aiutaci a migliorare</h2><p>Partecipa al sondaggio. Miglioriamo insieme i servizi di Poste Italiane.<a class="btn btn-xs btn-primary pull-right" href="'+e+'" rel="noopener noreferrer" target="_blank">S\xec, Partecipo</a></p></div></div></div>')}_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+' - function aiutaci_a_migliorare(anchorLink, ctaLink) called with anchorLink: "'+a+'" and ctaLink "'+e+'"')}function checkSurveyParameters(){if(checkDataElement()){var a=surveyParameters[locationUrl].ctaLink;if(0==jQuery("#tagmanager_box_survey").length)aiutaci_a_migliorare(surveyParameters[locationUrl].anchorLink,a);else if(1==jQuery("#tagmanager_box_survey").length){a!==jQuery("#tagmanager_box_survey a")[0].href&&(jQuery("#tagmanager_box_survey").remove(),aiutaci_a_migliorare(surveyParameters[locationUrl].anchorLink,a))}}_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+" - function checkSurveyParameters() called")}var surveyParameters=_satellite.getVar("DL_Configuration_Survey_Aiutaci_Standard"),locationUrl=window.location.href.split("?")[0];$(document).ready((function(){checkSurveyParameters(),_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+" - Document ready")})),$(window).bind("hashchange",(function(){checkSurveyParameters(),_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+" - Location changed")})),setTimeout((function(){checkSurveyParameters(),_satellite.logger.log("[BOX SURVEY LOG] - "+Date.now()+" - Timeout")}),1500);
+</script><script>
+"npdbiz.app.coll2.ocprm.testposte"==location.hostname&&$(".left-sidebar-toggle-label").on("unload",(function(){"https://npdbiz.app.coll2.ocprm.testposte/npdbiz/main/my-business/summary"!=location.href&&$("#tagmanager_box_survey").remove()}));
+</script><script>
+function checkDataElementBiz(){try{dataLayerAliasPagePlain=dataLayer.alias_page}catch(a){dataLayerAliasPagePlain=""}var a=!1;if(void 0!==surveyParametersBiz[locationUrl]){if(a=!0,void 0!==surveyParametersBiz[locationUrl].alias_page){var e=surveyParametersBiz[locationUrl].alias_page;_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function checkDataElementBiz() called, value alias_page returned "'+e+'"'),dataLayerAliasPage===e||dataLayerAliasPagePlain===e?(_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function checkDataElementBiz() called, value alias_page get "'+e+'"'),a=!0):a=!1}return _satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function checkDataElementBiz() called, value returned "'+a+'"'),a}}function aiutaci_a_migliorare_Biz(a,e){$(a).length>0&&("production"===_satellite.getVar("DL_environment")?$(a).append('<div id="tagmanager_box_survey"><div class="main-pills spacer-xs-top-30 spacer-xs-bottom-20"><div class="main-pills-wrap" id="aiutaci_a_migliorare"><h2>Aiutaci a migliorare</h2>Partecipa al sondaggio. Miglioriamo insieme i servizi di Poste Italiane.&nbsp;<br><a href="'+e+'" rel="noopener noreferrer" target="_blank" class="btn btn-xs btn-primary" style="margin-top:20px" >S\xec, Partecipo</a></div></div></div>'):$(a).append('<div id="tagmanager_box_survey"><div class="main-pills spacer-xs-top-30 spacer-xs-bottom-20"><div class="main-pills-wrap" id="aiutaci_a_migliorare"><h2>Aiutaci a migliorare</h2><p>Partecipa al sondaggio. Miglioriamo insieme i servizi di Poste Italiane.<a class="btn btn-xs btn-primary pull-right" href="'+e+'" rel="noopener noreferrer" target="_blank">S\xec, Partecipo</a></p></div></div></div>'));_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+' - function aiutaci_a_migliorare_Biz(anchorLink, ctaLink) called with anchorLink: "'+a+'" and ctaLink "'+e+'"')}function checkSurveyParametersBiz(){if(checkDataElementBiz()){var a=surveyParametersBiz[locationUrl].ctaLink;if(0==jQuery("#tagmanager_box_survey").length)aiutaci_a_migliorare_Biz(surveyParametersBiz[locationUrl].anchorLink,a);else if(1==jQuery("#tagmanager_box_survey").length){a!==jQuery("#tagmanager_box_survey a")[0].href&&(jQuery("#tagmanager_box_survey").remove(),aiutaci_a_migliorare_Biz(surveyParametersBiz[locationUrl].anchorLink,a))}}_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - function checkSurveyParametersBiz() called")}var surveyParametersBiz=_satellite.getVar("DL_Configuration_Survey_Aiutaci_area_BUSINESS"),locationUrl=window.location.href.split("?")[0];$(document).ready((function(){checkSurveyParametersBiz(),_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - Document ready")})),$(window).bind("hashchange",(function(){checkSurveyParametersBiz(),_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - Location changed")})),setTimeout((function(){checkSurveyParametersBiz(),_satellite.logger.log("[BOX SURVEY BIZ LOG] - "+Date.now()+" - Timeout")}),1500);
+</script><script type="text/javascript" src="Accedi%20o%20Registrati_files/custom.js"></script><button id="chat_button" class="draggable_chatbot" onclick="openChat()" onmouseover="showTooltip()" onmouseout="hideTooltip()"><div id="tooltip" hidden=""></div><img draggable="false" src="Accedi%20o%20Registrati_files/button_openChat.png" class="static" aria-label="Apri la chat"><img draggable="false" src="Accedi%20o%20Registrati_files/button_chatIdle.gif" class="animation" aria-label="Apri la chat"></button>	<div id="widget_container" class="draggable_chatbot" hidden=""><div id="widget" role="alert" aria-live="assertive" aria-atomic="true"><div id="widget_header"><div id="widget_header_icon"></div><div id="widget_header_title"></div><div id="widget_header_subtitle"></div><div id="widget_btn_group"><button class="icon minimize" onclick="resizeChat()" aria-label="Riduci Live Chat"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100"><rect class="cx-svg-icon-tone1" width="100" height="18" y="82" x="0"></rect></svg></button><button class="icon close" onclick="openClosureConfirm()" aria-label="Chiudi Live chat"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100"><path class="cx-svg-icon-tone1" d="M100,14.29,64.28,50,100,85.7,85.7,100,50,64.28,14.3,100,0,85.7,35.72,50,0,14.29,14.3,0,50,35.71,85.7,0Z" transform="translate(-0.02 -0.01)"></path></svg></button></div></div><div id="widget_body" onclick="aTagHandler(event)"><div class="dialog" id="widget_closure_confirm" hidden=""><p>Sei sicuro di voler chiudere la chat?</p><div class="buttons"><button class="btn white" onclick="closeClosureConfirm()">Annulla</button><button class="btn yellow" onclick="closeChat()">Chiudi</button></div></div><div class="dialog" id="connectionError" hidden=""><h5></h5><p></p></div><div id="widget_smoked_layer" hidden=""></div><div id="widget_disclaimer"><p id="widget_privacy_text">Ciao.
+ Ti informo che Poste Italiane S.p.A. e Postepay S.p.A in qualità di 
+Titolari del trattamento, utilizzeranno i tuoi dati personali in 
+conformità alla normativa privacy. Puoi consultare l'informativa 
+completa sul sito cliccando <a href="https://www.poste.it/privacy-policy/">qui</a>.</p><div id="widget_privacy_buttons"><button class="btn white" onclick="closeChat()">Annulla</button><button class="btn yellow" onclick="closeDisclaimer()" disabled="disabled">Inizia la Chat</button></div></div><div id="spinnerContent" hidden=""><div id="spinner"></div></div><div id="connectionTimeout" onclick="connectionTimeoutHandler()" hidden=""><h5></h5><p>Mi trovi qui se hai ancora bisogno.</p></div><div id="messages" aria-live="assertive" hidden=""></div><div id="widget_textarea" hidden=""><div id="widget_inner_textarea"><textarea id="widget_message" aria-label="message" role="textbox" contenteditable="true" aria-multiline="true" placeholder="Inizia a chattare con Poste..."></textarea><div id="widget_send_btn" onclick="sendTextMessageHandler(document.getElementById('widget_message').value)"><img draggable="false" src="Accedi%20o%20Registrati_files/button_send.png" title="INVIA"></div></div></div></div></div></div></body></html>
